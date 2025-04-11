@@ -1,0 +1,89 @@
+@media (max-width: 1024px) {
+    .logo img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .logo h1 {
+      font-size: 30px;
+    }
+  
+    .logo h1 strong {
+      font-size: 35px;
+    }
+  
+    .nav ul li a {
+      font-size: 16px;
+    }
+  
+    .company-logo {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  
+  
+  
+  @media (max-width: 768px) {
+    .hamburger {
+      display: flex;
+    }
+  
+    .nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: #1c1c1c;
+      flex-direction: column;
+      align-items: center;
+      display: none;
+      padding: 20px 0;
+    }
+  
+    .nav.open {
+      display: flex;
+    }
+  
+    .nav ul {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .nav ul li a {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .logo img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .logo h1 {
+      font-size: 1.2rem;
+    }
+  
+    .logo h1 strong {
+      font-size: 1.4rem;
+    }
+  
+    footer {
+      font-size: 14px;
+    }
+  
+    footer a {
+      font-size: 14px;
+    }
+  
+    footer img {
+      width: 16px;
+    }
+  }

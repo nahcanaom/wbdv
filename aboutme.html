@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
+
+  <link rel="stylesheet" href="aboutme.css">
+
+  <link rel="stylesheet" href="about-mobile.css">
+  
+</head>
+<body>
+
+
+
+
+  <header>
+    <div class="logo">
+      <img src="image/logo.png" alt="Logo" />
+      <h1><span>PERSONAL</span><br><strong>PORTFOLIO</strong></h1>
+    </div>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <nav class="nav" id="navMenu">
+      <ul>
+        <li><a href="lpage.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="project.html">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+
+<main class="container">
+  <div class="profile-img">
+    <img class="animated-image" src="image/ID.JPG" alt="Profile Image" />
+  </div>
+  <div class="intro">
+    <h1>Hi there! It’s <span class="highlight">Bian</span>.<br>
+      I’m a <span class="highlight">Programmer</span> and a <span class="highlight">Web Designer</span>.</h1>
+    <p>I am a 1st year college student at Our Lady of Fatima University in Quezon City,
+      currently taking Bachelor of Science in Computer Science. I am passionate with what I do, and I love learning new things.
+      I am also interested in Web Development and Graphic Design. I am eager to learn and grow in this field. If you have any messages 
+      or inquiries, please don't hesitate to contact me.
+    </p>
+  </div>
+</main>
+
+
+
+
+
+<footer>
+  <span class="copyright">&copy; Copyright</span>
+  <div>
+    <a href="https://www.facebook.com/faye.jimenez.1232">
+      <img src="image/facebook.png" alt="Facebook">
+      Faye Jimenez
+    </a>
+  </div>
+  <div>
+    <a href="https://www.linkedin.com/in/BiancaJimenez">
+      <img src="image/linkedin.png" alt="LinkedIn">
+      Bianca Jimenez
+    </a>
+  </div>
+  <div>
+    <a href="mailto:faye08022005@gmail.com">
+      <img src="image/email.png" alt="Email">
+      faye08022005@gmail.com
+    </a>
+  </div>
+</footer>
+
+
+
+
+
+
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById('navMenu');
+    nav.classList.toggle('open');
+  }
+</script>
+</body>
+</html>
